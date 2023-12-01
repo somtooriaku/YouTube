@@ -7,7 +7,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
-check: [f](https://github.com/somtooriaku/YouTube/blob/main/Demonstration)
+check: ![f](https://github.com/somtooriaku/YouTube/blob/main/Demonstration)
 
 ### `npm start`
 
