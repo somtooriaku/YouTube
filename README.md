@@ -1,50 +1,142 @@
-# Youtube project: Manipulating data from youtube's API by utilizing RapidAPI
+# My Youtube
 
-The challenge of this project was to create a web app that gets data from youtube (videos, channel information), and displays it on a web application.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Intro
+Presenting youtube 2.0. my version of youtube.com which limits the addictive parts of youtube and provides it's most important features.
+- You can find the live deployment [here](https://abetteryoutube.netlify.app)
 
-## Available Scripts
+## 🔍 Preview
+### 📱 Desktop
 
-In the project directory, you can run:
+![Alt text](assets/SS1.png?raw=true "Homepage")
+![Alt text](assets/SS2.png?raw=true "Example of the search function")
+![Alt text](assets/SS3.png?raw=true "A channel's feed")
+![Alt text](assets/SS1.png?raw=true "A video Feed")
 
-### `npm start`
-![Alt text](assets/SS1.png?raw=true "Optional Title")
+## 📚 Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [🔍 Preview](#-preview)
+  - [💻 Desktop](#-desktop)
+- [📚 Table of Contents](#-table-of-contents)
+- [🚀 Features](#-features)
+- [🔧 Getting Started](#-getting-started)
+  - [Run Development Environment](#run-development-environment)
+  - [Build for Production](#build-for-production)
+- [🎨 Design](#-design)
+- [👩‍💻 Technologies and Libraries Used](#-technologies-and-libraries-used)
+- [♿ Accessibility](#-accessibility)
+- [🧪 Testing](#-testing)
+- [📝 Notes](#-notes)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Features
 
-### `npm run build`
+The user may:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Load 50 videos at one
+- See the number of views and likes a video
+- Search for a specific video by title
+- View recommeded and common titles from sidebar
+- See videos that are similar to current video
+  - Similar
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🔧 Getting Started
+Clone the project
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+  git clone git@github.com:somtooriaku/YouTube.git
+```
 
-### `npm run eject`
+Go to the project directory
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+  cd YouTube
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Install dependencies
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+  npm install
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Start the server
 
-## Learn More
+```bash
+  npm run start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Remember to install dependencies after cloning it locally.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Run Development Environment
+
+```bash
+yarn dev # npm run dev
+```
+
+### Build for Production
+
+```bash
+yarn build # npm run build
+```
+
+## 🎨 Design
+
+All designs, including a design system, were created prior to any development, by attempting to structure it similarily to youtube.com. The appplication was styled using embedded CSS and importing icons from material UI.
+
+## 👩‍💻 Technologies and Libraries Used
+
+- React
+- TypeScript
+- MaterialUI
+- Date-fns
+- Styled Components
+- Jest
+- YouTube's API
+
+Bootstrapped with my [React.js template](https://github.com/facebook/create-react-app).
+
+## ♿ Accessibility
+
+This application was built using a design first principle and is fully accessible on all possible platforms. The design is restructed for all forms of devices. It also has an accessibility score of 100 according to Google lighthouse. This was achieved using [semantic elements](https://developer.mozilla.org/en-US/docs/Glossary/Semantics) and aria labels using [a11yproject's checklist](https://www.a11yproject.com/checklist/).
+
+## 🧪 Testing
+
+Unit tests have been written for all components using Jest. You can run all tests in watch mode by using the command line:
+
+```bash
+yarn test # npm run test
+```
+
+Alternatively, generate coverage by using the following:
+
+```bash
+yarn test:coverage # npm run test:coverage
+```
+
+## 📝 Notes
+
+All components were developed from scratch and implemented based on the design system created for this challenge.
+
+
+ 
+## Features
+
+- Search component that works like the youtube search bar
+- Media feeds. (both videos nd their thumbnails)
+- Fullscreen mode
+- Open youtube channels
+- View Video likes and channel subscribers
+- search by common tags on the sidebar
+
+
+## Deployment
+
+The application is fully functional online and has been deployed to: [https://abetteryoutube.netlify.app]
+
+
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
 
