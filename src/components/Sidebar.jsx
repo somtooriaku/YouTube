@@ -18,11 +18,11 @@ const Sidebar = ( { selectedCategory, setSelectedCategory } ) => (
             className="category-btn"
             style={{
             background: category.name === selectedCategory && "#000080",
-            color: "white",
+            color: "grey",
             }}
             key={category.name}
         >
-                <span style={{ color: category.name === selectedCategory ? "white" : "cyan", marginRight: "15px" }} >{category.icon}</span>
+                <span style={{ color: category.name === selectedCategory ? "grey" : "grey", marginRight: "15px" }} >{category.icon}</span>
                 <span style={{ opacity: category.name === selectedCategory ? "1" : "0.8" }} >{category.name}</span>
             </button>
         ) )}

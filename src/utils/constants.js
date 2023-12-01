@@ -11,15 +11,17 @@ import GraphicEqIcon from '@mui/icons-material/GraphicEq';
 import TheaterComedyIcon from '@mui/icons-material/TheaterComedy';
 import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
 import logose from '../assets/logose.png';
+import YouTubeIcon from '@mui/icons-material/YouTube';
+
 
 export const logo = logose;
 
 export const categories = [
-  { name: 'New', icon: <HomeIcon />, },
-  { name: 'Uoft', icon: <CodeIcon />, },
-  { name: 'Leetcode', icon: <CodeIcon />, },
-  { name: 'ReactJS', icon: <CodeIcon />, },
-  { name: 'MIT ', icon: <CodeIcon />, },
+  { name: 'Recommended', icon: <YouTubeIcon />, },
+  { name: 'Uoft', icon: <SchoolIcon />, },
+  { name: 'Leetcode', icon: <HomeIcon />, },
+  // { name: 'ReactJS', icon: <CodeIcon />, },
+  { name: 'MIT ', icon: <SchoolIcon />, },
   { name: '6.046J', icon: <FitnessCenterIcon />, },
   { name: 'github', icon: <MusicNoteIcon /> },
   { name: 'AWS', icon: <SchoolIcon />, },
@@ -33,9 +35,9 @@ export const categories = [
   { name: 'NHL', icon: <TheaterComedyIcon />, },
 ];
 
-export const demoThumbnailUrl = 'https://i.ibb.co/G2L2Gwp/API-Course.png';
+export const demoThumbnailUrl = 'https://cdn.pixabay.com/photo/2015/02/22/17/56/loading-645268_1280.jpg';
 export const demoChannelUrl = '/channel/UCmXmlB4-HJytD7wek0Uo97A';
-export const demoVideoUrl = '/video/GDa8kZLNhJ4';
-export const demoChannelTitle = 'JavaScript Mastery';
-export const demoVideoTitle = 'Build and Deploy 5 JavaScript & React API Projects in 10 Hours - Full Course | RapidAPI';
-export const demoProfilePicture = 'http://dergipark.org.tr/assets/app/images/buddy_sample.png'
+export const demoVideoUrl = '/video/oNsKrgLq42g';
+export const demoChannelTitle = 'Hello World';
+export const demoVideoTitle = 'Youtube Specialty';
+export const demoProfilePicture = 'https://cdn.pixabay.com/photo/2015/02/22/17/56/loading-645268_1280.jpg'

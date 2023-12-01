@@ -8,8 +8,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-check ![fd](_https://github.com/somtooriaku/YouTube/blob/main/Demonstration.gif)
-
 ### `npm start`
 
 Runs the app in the development mode.\

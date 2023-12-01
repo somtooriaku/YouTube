@@ -7,7 +7,7 @@ body {
 
 a {
   text-decoration: none;
-  color: black;
+  color: rgb(227, 217, 217);
 }
 
 ::-webkit-scrollbar {
@@ -16,7 +16,7 @@ a {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: rgb(114, 113, 113);
+  background-color: rgb(199, 193, 193);
   border-radius: 10px;
   height: 200px;
 }
@@ -26,12 +26,12 @@ a {
 }
 
 .category-btn:hover {
-  background-color: #0362fc !important;
-  color: white !important;
+  background-color: #c8cdd4 !important;
+  color: rgb(156, 49, 49) !important;
 }
 
 .category-btn:hover span{
-  color: white !important;
+  color: rgb(203, 91, 91) !important;
 }
 
 .react-player {
